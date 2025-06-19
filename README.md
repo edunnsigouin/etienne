@@ -1,7 +1,9 @@
 I need to use uv instead of conda for security reasons when working on a tryg VM. Below are instructions for how to set up a self contained python project.
 
-# starting a python project:
+starting a python project:
+``` bash
 uv init 'project_name'
+```
 
 # create a virtual environment + install package. Virtual environment is created automatically within the project when using 'uv add':
 cd ./project_name
